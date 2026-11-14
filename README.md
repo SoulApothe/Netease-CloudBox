@@ -17,13 +17,14 @@
 
 ---
 
-> ## 关于本项目
->
-> 本项目**基于开源项目 [Suxiaoqinx/Netease_url](https://github.com/Suxiaoqinx/Netease_url)（MIT License，Copyright © 2024 Suxiaoqinx）二次开发**，在其网易云音乐解析内核之上，重写为可在 Windows 上直接运行的桌面应用，并新增在线播放、动态推荐、本机档案、批量下载与元数据写入等能力。
->
-> 上游协议的解析思路、接口封装与早期实现来自原作者，**版权归原作者所有**；本项目仅对新增与改造部分主张权利，并同样以 **MIT License** 开源。
->
-> **本仓库源码完全公开，接受大众监督。** 如果你发现隐私风险、安全缺陷、异常网络请求或任何不当行为，请在 [Issues](https://github.com/SoulApothe/Netease-CloudBox/issues) 提出，或按 [SECURITY.md](./SECURITY.md) 私下报告。所有反馈都会被认真处理。
+## 📌 来源与开源声明
+
+本项目**基于开源项目 [Suxiaoqinx/Netease_url](https://github.com/Suxiaoqinx/Netease_url)（MIT License，Copyright © 2024 Suxiaoqinx）二次开发**，在其网易云音乐解析内核之上，重写为可在 Windows 上直接运行的桌面应用，并新增在线播放、动态推荐、本机档案、批量下载与元数据写入等能力。
+
+上游协议的解析思路、接口封装与早期实现来自原作者，**版权归原作者所有**；本项目仅对新增与改造部分主张权利，并同样以 **MIT License** 开源。衍生关系已在 [NOTICE](./NOTICE) 中写明，原始版权声明保留在 [LICENSE](./LICENSE) 中。
+
+> **本仓库源码完全公开，接受大众监督。**
+> 如果你发现隐私风险、安全缺陷、异常网络请求或任何不当行为，请在 [Issues](https://github.com/SoulApothe/Netease-CloudBox/issues) 提出，或按 [SECURITY.md](./SECURITY.md) 私下报告。所有反馈都会被认真处理，核实后及时修复并在 Release Notes 中说明。
 
 ---
 
@@ -50,6 +51,9 @@
 - Windows 10 / 11，单文件、免安装，**不需要 Python 或任何依赖**
 - 双击即用，原生窗口（WebView2）
 - 首次启动会在 exe 同级目录生成 `settings.json`、`cloudbox.db` 与 `music` 文件夹
+- 安装包内**不含任何 Cookie 与本机数据**，是一个干净的空白包
+
+> exe 只作为 Release 附件提供，不放进源码仓库，避免仓库膨胀。想核实构建来源，可以按下方「方式三」用同一份源码自行打包，或用 `SECURITY.md` 里的方法检查可执行文件内的外链域名。
 
 > ⚠️ exe 未做代码签名，首次运行 Windows SmartScreen 可能提示「未知发布者」。源码在本仓库完全公开，你可以核对后选择「仍要运行」，或直接按下方步骤从源码运行。
 
