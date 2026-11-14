@@ -57,6 +57,18 @@
 
 > ⚠️ exe 未做代码签名，首次运行 Windows SmartScreen 可能提示「未知发布者」。源码在本仓库完全公开，你可以核对后选择「仍要运行」，或直接按下方步骤从源码运行。
 
+### 版本与更新
+
+| Release | 说明 |
+| --- | --- |
+| [v3.5.0-r2](https://github.com/SoulApothe/Netease-CloudBox/releases/tag/v3.5.0-r2) | **最新**：第二版 exe。新增桌面歌词悬浮窗、均衡器、推荐页批量下载、歌单导入命名；修复设置页勾选命名项导致整个界面位移、多选操作条遮挡列表等问题。 |
+| [v3.5.0](https://github.com/SoulApothe/Netease-CloudBox/releases/tag/v3.5.0) | 首个开源版本。 |
+
+完整的逐项更新内容见 [CHANGELOG.md](./CHANGELOG.md) 与对应 Release 的说明。
+
+> GitHub 上发布的 exe **始终不含任何 Cookie / 登录凭证**，首次运行不会生成 `cookie.txt`；请在「设置 → 下载凭证」扫码登录或粘贴自己的 Cookie。
+> 程序内版本标识仍为 `3.5.0`，`r2` 仅用于区分构建批次。本仓库 `main` 分支源码仍是 v3.5.0 首个发布时的快照，上述新增功能尚未同步，如需核对实现请等候源码同步。
+
 ---
 
 ## 🚀 快速开始
@@ -132,6 +144,7 @@ Netease-CloudBox/
 ├── 启动桌面版.bat / 打包EXE.bat
 ├── LICENSE
 ├── SECURITY.md
+├── CHANGELOG.md          # 版本更新记录
 └── PRIVACY.md
 ```
 
