@@ -1,0 +1,14 @@
+# 网易云 Cookie 示例文件（不是真实 Cookie）
+#
+# 用法：
+#   1. 把本文件复制为 cookie.txt（与 exe 或 desktop.py 同级）；
+#   2. 用你自己的 Cookie 替换下面整行内容（保留结尾换行）；
+#   3. 重启软件，或到「设置 → 账号」里点「刷新登录状态」。
+#
+# 获取方式（任选其一）：
+#   - 软件内「设置 → 账号 → 扫码登录」，登录成功后会自动写入 cookie.txt；
+#   - 浏览器登录 music.163.com → F12 → Network → 任意请求 → 复制请求头里的 Cookie。
+#
+# 格式：分号分隔的 key=value，至少需要 MUSIC_U。
+#
+# MUSIC_U=REPLACE_WITH_YOUR_OWN_COOKIE; __csrf=REPLACE_ME; NMTID=REPLACE_ME; os=pc; appver=8.9.70;

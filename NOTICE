@@ -1,0 +1,35 @@
+NOTICE
+======
+
+CloudBox（云音盒子）
+Copyright (c) 2026 SoulApothe
+Licensed under the MIT License. See LICENSE.
+
+This product is a derivative work based on:
+
+    Netease_url
+    https://github.com/Suxiaoqinx/Netease_url
+    Copyright (c) 2024 Suxiaoqinx
+    Licensed under the MIT License.
+
+Upstream code reused, adapted, or referenced in this repository includes the
+NetEase Cloud Music request signing / parsing layer (originally in main.py,
+music_api.py, music_downloader.py and templates/), which has been rewritten and
+extended in music_api.py, server.py, downloader.py, discover.py, accounts.py,
+tags.py, importer.py, localmusic.py, qr_login.py and templates/index.html.
+
+The original MIT copyright notice is retained in LICENSE, as required.
+
+Third-party components (installed separately via requirements.txt):
+
+    Flask        BSD-3-Clause
+    requests     Apache-2.0
+    cryptography Apache-2.0 / BSD
+    mutagen      GPL-2.0-or-later
+    qrcode       BSD-3-Clause
+    pywebview    BSD-3-Clause
+
+Trademarks and content are NOT licensed under MIT:
+"Netease Cloud Music" / "网易云音乐" and all song metadata, lyrics, cover art
+and audio belong to their respective owners. This project is not affiliated
+with, endorsed by, or sponsored by NetEase.

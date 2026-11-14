@@ -1,0 +1,37 @@
+# ---- 本机隐私数据：绝不要提交 ----
+cookie.txt
+cookie*.bak*
+cookie.bak.*
+settings.json
+cloudbox.db
+cloudbox.db-journal
+music_api.log
+*.log
+music/
+downloads/
+release-package/
+分发版/
+.env
+
+# ---- 构建产物 ----
+build/
+dist/
+*.exe
+*.manifest
+*.pyz
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
