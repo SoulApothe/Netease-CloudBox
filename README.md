@@ -71,7 +71,7 @@
 
 ```bash
 git clone https://github.com/SoulApothe/Netease-CloudBox.git
-cd CloudBox
+cd Netease-CloudBox
 ```
 
 Windows 上双击 **`启动桌面版.bat`**：脚本会自动创建 `.venv`、安装依赖并打开桌面窗口（仅首次较慢）。
@@ -109,7 +109,7 @@ python -m PyInstaller app.spec --noconfirm --clean
 ## 🧭 目录结构
 
 ```
-CloudBox/
+Netease-CloudBox/
 ├── desktop.py            # 桌面入口：本地服务 + pywebview 窗口
 ├── main.py               # 兼容入口（旧版 python main.py）
 ├── server.py             # Flask 路由与 API
@@ -205,7 +205,7 @@ Cookie 是你网易云账号的**登录凭证**，等同于账号密码，本项
 MIT License
 
 Copyright (c) 2024 Suxiaoqinx            <- 上游项目 Netease_url
-Copyright (c) 2026 SoulApothe              <- 本项目新增与改造部分
+Copyright (c) 2026 SoulApothe             <- 本项目新增与改造部分
 ```
 
 完整文本见 [LICENSE](./LICENSE)。
