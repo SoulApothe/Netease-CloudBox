@@ -61,8 +61,7 @@
 
 | Release | 说明 |
 | --- | --- |
-| [v3.5.0-r3](https://github.com/SoulApothe/Netease-CloudBox/releases/tag/v3.5.0-r3) | **最新**：第三版 exe。点 X 最小化到系统托盘（托盘双击恢复、右键彻底退出，设置里可改回直接退出）；退出前开着的悬浮时钟 / 桌面歌词 / 歌词小窗下次启动自动恢复；修复时钟字号拉大时窗口先变大再变小、进度条拖动不实时生效。完整检查后重新构建。 |
-| [v3.5.0-r2](https://github.com/SoulApothe/Netease-CloudBox/releases/tag/v3.5.0-r2) | 第二版 exe。新增桌面歌词悬浮窗、均衡器、推荐页批量下载、歌单导入命名；修复设置页勾选命名项导致整个界面位移、多选操作条遮挡列表等问题。 |
+| [v3.5.0-r2](https://github.com/SoulApothe/Netease-CloudBox/releases/tag/v3.5.0-r2) | **最新**：第二版 exe。新增桌面歌词悬浮窗、均衡器、推荐页批量下载、歌单导入命名；修复设置页勾选命名项导致整个界面位移、多选操作条遮挡列表等问题。 |
 | [v3.5.0](https://github.com/SoulApothe/Netease-CloudBox/releases/tag/v3.5.0) | 首个开源版本。 |
 
 完整的逐项更新内容见 [CHANGELOG.md](./CHANGELOG.md) 与对应 Release 的说明。
